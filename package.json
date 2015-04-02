@@ -1,0 +1,10 @@
+{
+  "name": "language-cobol",
+  "description": "COBOL support in Atom",
+  "version": "0.0.1",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+'.source.cobol':
+  'editor':
+    'autoIndentOnPaste': false
+    'tabLength': 4
+    'commentStart': '*'
+    'increaseIndentPattern': '^\\*(if|else|perform)\\b.*$'
+    'decreaseIndentPattern': '^\\*(end-)\\b.*'
