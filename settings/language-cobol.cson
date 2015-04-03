@@ -1,8 +1,8 @@
 '.source.cobol':
-  'editor':
-    'autoIndentOnPaste': false
-    'tabLength': 4
-    'commentStart': '*'
-    'preferredLineLength': 71
-    'increaseIndentPattern': '^\\*(if|else|perform)\\b.*$'
-    'decreaseIndentPattern': '^\\*(end-)\\b.*'
+  editor:
+    autoIndentOnPaste: false
+    tabLength: 4
+    preferredLineLength: 71
+    commentStart: "*> "
+    increaseIndentPattern: "^\\s*(else|else\\sif|perform|if|add|calldelete|divide|evaluate|read|rewrite|start|string|subtract|unstring|write).*$"
+    decreaseIndentPattern: "^\\s*(else|end-if|else\\sif|end-perform|end-add|end-call|end-delete|end-divide|end-evaluate|end-read|end-rewrite|end-start|end-string|end-subtract|end-unstring|end-write).*$"
