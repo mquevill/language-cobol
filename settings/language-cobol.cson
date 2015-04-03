@@ -3,5 +3,6 @@
     'autoIndentOnPaste': false
     'tabLength': 4
     'commentStart': '*'
+    'preferredLineLength': 71
     'increaseIndentPattern': '^\\*(if|else|perform)\\b.*$'
     'decreaseIndentPattern': '^\\*(end-)\\b.*'
