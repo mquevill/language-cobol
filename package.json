@@ -1,10 +1,11 @@
 {
   "name": "language-cobol",
   "description": "COBOL support in Atom",
+  "repository": "https://github.com/tollofsen/language-cobol",
   "version": "0.0.1",
   "engines": {
     "atom": "*",
     "node": "*"
   },
-  "license": "Apache"
+  "license": "MIT"
 }
