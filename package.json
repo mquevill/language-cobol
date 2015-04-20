@@ -4,8 +4,7 @@
   "repository": "https://github.com/tollofsen/language-cobol",
   "version": "0.0.1",
   "engines": {
-    "atom": "*",
-    "node": "*"
+    "atom": "*"
   },
   "license": "MIT"
 }
