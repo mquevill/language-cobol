@@ -1,9 +1,9 @@
 # language-cobol
 COBOL package for Atom
-##Install
+## Install
 ```
 git clone git@github.com:tollofsen/language-cobol.git
 cd language-cobol
-atom install
-atom link
+apm install
+apm link
 ```
