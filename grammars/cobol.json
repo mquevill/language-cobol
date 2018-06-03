@@ -316,6 +316,9 @@
         "1": {
           "name": "keyword.verbs.cobol"
         },
+        "1": {
+          "name": "keyword.verbs.cobol-unit-test"
+        },
         "2": {
           "name": "entity.name.cobol"
         }
@@ -390,6 +393,9 @@
         "1": {
           "name": "keyword.verbs.cobol"
         },
+        "1": {
+          "name": "keyword.verbs.cobol-unit-test"
+        },
         "2": {
           "name": "support.type.cobol"
         }
@@ -405,6 +411,9 @@
         "1": {
           "name": "keyword.verbs.cobol"
         },
+        "1": {
+          "name": "keyword.verbs.cobol-unit-test"
+        },
         "2": {
           "name": "support.type.cobol"
         }
@@ -416,6 +425,9 @@
       "captures": {
         "1": {
           "name": "keyword.verbs.cobol"
+        },
+        "1": {
+          "name": "keyword.verbs.cobol-unit-test"
         },
         "2": {
           "name": "support.type.cobol"
@@ -429,6 +441,9 @@
         "1": {
           "name": "keyword.verbs.cobol"
         },
+        "1": {
+          "name": "keyword.verbs.cobol-unit-test"
+        },
         "2": {
           "name": "storage.type.source.cobol"
         }
@@ -438,6 +453,10 @@
     {
       "match": "\\b(?<!-)(?i:accept|add|address|allocate|call|cancel|chain|close|commit|compute|continue|delete|disable|display|bell|divide|enable|enter|if|evaluate|exhibit|named|exit|free|generate|go\\s*to|go|goback|initialize\\sonly|initialize|initiate|inspect|merge|set|invoke|move|corresponding|corr|multiply|open|sharing|sort-merge|perform|purge|raise|read|receive|release|return|rewrite|rounded|rollback|search|send|sort|start|service|subtract|suppress|terminate|then|unlock|string|unstring|validate|write|next|statement|sentence)(?=\\s|\\.)",
       "name": "keyword.verbs.cobol"
+    },
+    {
+      "match": "\\b(?<!-)(?i:be|expect|testcase|testsuite)(?=\\s|\\.)",
+      "name": "keyword.verbs.cobol-unit-test"
     },
     {
       "match": "(?i:picture\\s+is|picture|pic\\s+is|pic)\\s+[-+sS\\*$09aAbBxXpPnNzZ/,.]*\\([0-9]*\\)[vV\\.][-+s\\*$09aAbBsSnNxXzZ/,]*\\([0-9]*\\)",
