@@ -316,9 +316,6 @@
         "1": {
           "name": "keyword.verbs.cobol"
         },
-        "1": {
-          "name": "keyword.verbs.cobol-unit-test"
-        },
         "2": {
           "name": "entity.name.cobol"
         }
@@ -393,9 +390,6 @@
         "1": {
           "name": "keyword.verbs.cobol"
         },
-        "1": {
-          "name": "keyword.verbs.cobol-unit-test"
-        },
         "2": {
           "name": "support.type.cobol"
         }
@@ -411,9 +405,6 @@
         "1": {
           "name": "keyword.verbs.cobol"
         },
-        "1": {
-          "name": "keyword.verbs.cobol-unit-test"
-        },
         "2": {
           "name": "support.type.cobol"
         }
@@ -426,9 +417,6 @@
         "1": {
           "name": "keyword.verbs.cobol"
         },
-        "1": {
-          "name": "keyword.verbs.cobol-unit-test"
-        },
         "2": {
           "name": "support.type.cobol"
         }
@@ -440,9 +428,6 @@
       "captures": {
         "1": {
           "name": "keyword.verbs.cobol"
-        },
-        "1": {
-          "name": "keyword.verbs.cobol-unit-test"
         },
         "2": {
           "name": "storage.type.source.cobol"
@@ -457,6 +442,10 @@
     {
       "match": "\\b(?<!-)(?i:be|expect|testcase|testsuite)(?=\\s|\\.)",
       "name": "keyword.verbs.cobol-unit-test"
+    },
+    {
+      "match": "@\\b(?<!-)(?i:ignore)",
+      "name": "keywords.verbs.cobol-unit-test-meta"
     },
     {
       "match": "(?i:picture\\s+is|picture|pic\\s+is|pic)\\s+[-+sS\\*$09aAbBxXpPnNzZ/,.]*\\([0-9]*\\)[vV\\.][-+s\\*$09aAbBsSnNxXzZ/,]*\\([0-9]*\\)",
