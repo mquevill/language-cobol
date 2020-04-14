@@ -11,7 +11,7 @@
   "patterns": [
     {
       "match": "(^[0-9 a-zA-Z\\*\\-][0-9 a-zA-Z\\\\*\\-][0-9 a-zA-Z\\*\\-][0-9 a-zA-Z\\*\\-][0-9 a-zA-Z\\*\\-][0-9 a-zA-Z\\*\\-][\\*/][> ]\\s*(?i:NOTE|FIXME|TODO|CHANGED).*$)",
-      "name": "comment.line.note.python"
+      "name": "comment.line.note.cobol"
     },
     {
       "match": "(^[0-9 a-zA-Z\\*\\-][0-9 a-zA-Z\\\\*\\-][0-9 a-zA-Z\\*\\-][0-9 a-zA-Z\\*\\-][0-9 a-zA-Z\\*\\-][0-9 a-zA-Z\\*\\-][\\*/].*$)",
@@ -39,7 +39,7 @@
     },
     {
       "match": "(\\*>\\s*(?i:NOTE|FIXME|TODO|CHANGED).*$)",
-      "name": "comment.line.note.python"
+      "name": "comment.line.note.cobol"
     },
     {
       "match": "(^      \\*.*$|^\\*.*$)",
