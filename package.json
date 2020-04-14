@@ -2,7 +2,7 @@
   "name": "language-cobol",
   "description": "COBOL support in Atom",
   "repository": "https://github.com/mquevill/language-cobol",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "engines": {
     "atom": "*"
   },
